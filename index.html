@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <title>PlaceCraft SMP</title>
+      <title>PlaceCraft SMP server</title>
       <meta charset="utf-8">
       <style>
       .center {
-          text-align: center;
-          font-size: 2.25em;
+          font-size: 2.00em;
+      }
+      .top {
+          border-bottom: 5px solid rgb(50, 53, 120);
+          background-color: rgb(50, 53, 120);
+          position: fixed;
+          top: -20px;
+          left: 0px;
+          width: 100%;
+          z-index: 1;
       }
       body {
           background-color: rgb(70, 80, 140);
@@ -38,6 +46,8 @@
           color: black;
           text-align: center;
           font-size: 1.14em;
+          position: relative;
+          top: 50px;
       }
       .middle {
           text-align: center;
@@ -45,11 +55,19 @@
       .member-heading {
           font-size: 1.5em;
       }
+      .right {
+          position: fixed;
+          top: -10px;
+          right: 100px;
+          background-color: 70, 80, 140;
+          z-index: 1;
+      }
       </style>
   </head>
   <body>
  
-  <h1 class="center">PlaceCraft SMP</h1>
+  <h1 class="center top">PlaceCraft SMP</h1>
+  <h4 class="right">Search</h4>
   <h4 class="sub-title"><br>PlaceCraft SMP is a Bedrock Edition server<br><br></h4>
   <h4 class="box">
         <br>
@@ -68,7 +86,8 @@
         Info
   </h2>
   <h4 class="info-box">
-  The PlaceCraft Server has recently started Season 1! More updates and info coming soon!
+  
+The PlaceCraft SMP server has just started season 1! More updates and info coming soon.
   </h4>
   </body>
 </html>
