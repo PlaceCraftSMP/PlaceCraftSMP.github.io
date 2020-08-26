@@ -1,1 +1,87 @@
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PlaceCraft SMP History</title>
+        <meta charset="utf-8">
+        <style>
+        .center {
+          font-size: 2.00em;
+      }
+      .top {
+          border-bottom: 5px solid rgb(50, 53, 120);
+          background-color: rgb(50, 53, 120);
+          position: fixed;
+          top: -21px;
+          left: 0px;
+          width: 100%;
+          z-index: 1;
+          color: black;
+      }
+      body {
+          background-color: rgb(70, 80, 140);
+      }
+      .info-box {
+          background-color: rgb(50, 53, 120);
+          color: gray;
+          float: center;
+          text-align: center;
+          color: white;
+          padding: 5px;
+          padding-top: 15px;
+          padding-bottom: 15px;
+          margin-bottom: 0px;
+      }
+      .names {
+          color: white;
+          font-family: serif;
+          text-align: left;
+      }
+      .sub-title {
+          color: black;
+          text-align: center;
+          font-size: 1.14em;
+          position: relative;
+          top: 50px;
+          margin-bottom: 40px;
+      }
+      .middle {
+          text-align: center;
+      }
+      .member-heading {
+          font-size: 1.5em;
+      }
+      .right {
+          position: fixed;
+          top: -15px;
+          right: 8px;
+          background-color: rgb(70, 80, 140);
+          z-index: 1;
+          padding-right: 100px;
+          padding-bottom: 6px;
+          padding-top: 6px;
+          padding-left: 5px;
+      }
+        </style>
+    </head>
+    <body>
+    <!--Title and subtitle-->
+ <a href="https://placecraftsmp.github.io"><h1 class="center top">&nbsp;PlaceCraft SMP</h1></a>
+  <h4 class="right">Search</h4>
+  <h4 class="sub-title"><br>Here is the history of PlaceCraft SMP<br><br></h4>
+  <!--History title-->
+  <h2 class="info-box">
+        History
+  </h2>
+  <h4 class="info-box">
+  <br>
+        <ul><span class="names">
+        <li>(No date) PlaceCratft SMP is started, including SandShape, PoultryPants and TiluPanda</li><br>
+        <li>(No date) TiluPanda leaves PlaceCraft</li><br>
+        <li>(No date) SVP a tree joins PlaceCraft</li><br>
+        <li>August 25, 2020: GrayWolf leaves PlaceCraft and PoultryPants becomes the owner.</li><br>
+        <li>August 27, 2020: Dylan123 joins PlaceCraft</li></span></ul><br>
+        <br>
+        <br>
+  </h4>
+    </body>
+</html>
